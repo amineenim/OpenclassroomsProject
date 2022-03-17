@@ -1,0 +1,124 @@
+@font-face 
+{
+	font-family: 'BallparkWeiner';
+	src : url('polices/ballpark.eot');
+	src : url('polices/ballpark.woff'),
+		url('polices/ballpark.ttf'),
+		url('polices/ballpark.svg');
+	font-weight : normal;
+	font-style : normal;
+			
+}
+@font-face
+{
+	font-family:'Dayrom';
+	src : url('polices/dayrom.eot');
+	src :
+		url('polices/dayrom.ttf'),
+		url('polices/dayrom.woff'),
+		url('polices/dayrom.svg');
+	font-style :normal;
+	font-weight : normal;
+
+}
+/*éléments principaus de la page*/
+body
+{
+	background-image: url('images/fond_jaune.png') ;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	font-family : 'Trebuchet MS', Arial, Sans-serif;
+	color : #181818 ;
+}
+#conteneur 
+{
+	width : 90%;
+	margin : auto ;
+}
+section h1, footer h1, nav a 
+{
+	font-family : Dayrom, serif;
+	font-weight:normal;
+	text-transform: uppercase;
+}
+/*entete et liens de navigation*/
+header
+{
+	display : flex;
+	justify-content: space-between;
+	padding-right: 20px;
+	padding-left: 20px;
+	align-items: flex-end;
+	background : url("images/separateur.png") repeat-x bottom;
+}
+nav li
+{
+	list-style-type: none ;
+	margin-right: 10px;
+	text-decoration: underline;
+}
+#logo
+{
+	display : flex;
+	height :70px;
+}
+nav ul
+{
+	display: flex;
+	border : 1px solid blue;
+	border-radius: 3px;
+}
+#articletitle
+{
+	display : flex;
+
+}
+#banniere
+{
+	background: url("images/sanfrancisco.jpg") no-repeat center ;
+	border : 2px solid black;
+	height : 250px;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 30px;
+	padding-left: 30px;
+	align-items: flex-end;
+}
+#button
+{
+	background-color: red ;
+	display: flex;
+	height : 40px;
+}
+section
+{
+	display: flex;
+	justify-content: space-between;
+	background: url("images/separateur.png") repeat-x bottom ;
+}
+article
+{
+	width : 70%;
+	min-width: 300px;
+}
+aside
+{
+	width : 30%;
+	min-width: 200px;
+	text-align: center ;
+	background-color: grey ;
+	color : white ;
+	border : solid black 3px ;
+	box-shadow: 3px 3px 3px black;
+	margin-left: 20px;
+}
+.presentation
+{
+	text-align: left;
+	padding-left: 20px;
+}
+footer 
+{
+	display: flex;
+	justify-content: space-between;
+}
